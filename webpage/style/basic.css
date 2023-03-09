@@ -1,0 +1,150 @@
+body{
+   padding: 0;
+    margin:0;
+
+    color:white;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+.container--gradient{
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+.container--black{
+    background-color: black;
+}
+.holder{
+    max-width: 1140px;
+    width: 1140px;
+    justify-content: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav__logo--image{
+    margin-top: 30px;  
+}
+.nav__logo{
+    flex-grow: 1;
+    display: flex;
+}
+.nav__menu{
+    flex-grow: 1;
+}
+.nav__menu__options{
+    display: flex;
+    padding: 0;
+    margin-top: 30px;
+    justify-content: right;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.nav__menu__options__list{
+    list-style-type: none;
+    margin-left: 20px;
+}
+.open-home{
+    display: flex;
+    height: 600px;
+}
+.open-home__welcome{
+    position: relative;
+    justify-content: left;
+    top:11%;
+    
+}
+.open-home__welcome__title{
+    flex-grow:1;
+    width: 70%;
+    font-weight: bold;
+    margin: 0;
+}
+.open-home__welcome__under-title{
+    width: 50%;
+    padding: 0;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+}
+.open-home__welcome--cta-button{
+    font-size: 1.5rem;
+    background-color: rgb(5, 209, 144);
+    width: 220px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.open-home__photo{
+    display: flex;
+    justify-content: right;
+    flex-grow:1;
+    width: 30%;
+}
+.open-home__photo--image{
+    transform: scale(65%) rotate(-5deg);
+    position: relative;
+    left:10%;
+    border: white solid 2rem;
+    border-radius: 5%;
+    background-color: white;
+    
+}
+
+.features{
+    height: 400px;
+    width: 100%;
+}
+.features__header{
+    width: 100%;
+    text-align: center;
+    margin-top:3rem;
+    q
+}
+.features__exposure{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.features__exposure--holder{
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 33%;
+}
+.features__exposure__item{
+    margin-top:2em;
+    border-radius: 50%;
+    font-size: 2em;
+    width: 1.2em;
+    height: 1.2em;
+    background-color: white;
+    color: black;  
+    padding: 2%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.features__exposure__text{
+    width: 80%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features__exposure__text--margin-top{
+   margin-top:1em;
+}
